@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <!-- <meta id="viewport" name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" /> -->
     <!-- <meta name = "viewport" content = "width = 320, initial-scale = 2.3, user-scalable = no"> -->
-    <meta name = "viewport" content = "width = device-width">
+    <meta name = "viewport" content = "width = 100%">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>Galaxy Empire - база данных сервера (ALL35)</title>
