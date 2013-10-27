@@ -45,7 +45,7 @@
       </tr>
       <tr>
         <td align='center'>
-          <form action="./admin/index.php">
+          <form action="index.php">
             <input type="submit" value="Добавить запись">
           </form>
         </td>
