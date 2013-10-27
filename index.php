@@ -4,12 +4,12 @@
 
   <head>
     <title>Galaxy Empire - база данных сервера (ALL35)</title>
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Language" content="ru" />
-    <meta charset="utf-8" />
 
     <meta name="description" content="Galaxy Empire - база данных сервера (ALL35)" />
-    <meta name="keywords" content="IOS, Game, Galaxy, Empire" />
+    <meta name="keywords" content="IOS Game, Galaxy Empire, DB" />
     <meta name="author" content="BersBaD" />
 
     <meta name="viewport" content="user-scalable=no, width=device-width" />
