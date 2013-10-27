@@ -3,7 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
   <head>
+    <title>Galaxy Empire - база данных сервера (ALL35)</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="ru" />
+    <meta charset="utf-8" />
+
+    <meta name="description" content="Galaxy Empire - база данных сервера (ALL35)" />
+    <meta name="keywords" content="IOS, Game, Galaxy, Empire" />
+    <meta name="author" content="BersBaD" />
 
     <meta name="viewport" content="user-scalable=no, width=device-width" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -24,8 +31,6 @@
     <!-- <link rel=”stylesheet” media=”all and (orientation:portrait)” href=”portrait.css”> -->
     <!-- <link rel=”stylesheet” media=”all and (orientation:landscape)” href=”landscape.css”>  -->
     <link rel="stylesheet" type="text/css" href="/css/table.css" />
-
-    <title>Galaxy Empire - база данных сервера (ALL35)</title>
   </head>
 
   <body>

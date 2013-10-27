@@ -21,6 +21,13 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/icon/apple-touch-icon-144-precomposed.png" />
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/icon/apple-touch-icon-144-precomposed.png" />
 
+<link rel="apple-touch-icon" href="touch-icon-iphone.png">
+<link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
+<link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
+<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png">
+
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
+
     <!-- <link rel=”stylesheet” media=”all and (orientation:portrait)” href=”portrait.css”> -->
     <!-- <link rel=”stylesheet” media=”all and (orientation:landscape)” href=”landscape.css”>  -->
     <link rel="stylesheet" type="text/css" href="/css/table.css" />
