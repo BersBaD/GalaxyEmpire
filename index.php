@@ -34,26 +34,26 @@
   </head>
 
   <body>
-    <table class='mystyle' bgcolor='#ffcc00' align='center'>
+    <table class="mystyle" bgcolor="#ffcc00" align="center">
       <tr>
         <th>Поиск в базе данных<br/>- Galaxy Empire -<br/>(ALL35)</th>
       </tr>
       <tr>
-        <td align='center'>
+        <td align="center">
           <form action="coordinates.php">
-            <input type="submit" value="Поиск по координатам">
+            <input type="submit" value="Поиск по координатам" />
           </form>
         </td>
       </tr>
       <tr>
-        <td align='center'>
+        <td align="center">
           <form action="player.php">
-            <input type="submit" value="Поиск по имени игрока">
+            <input type="submit" value="Поиск по имени игрока" />
           </form>
         </td>
       </tr>
       <tr>
-        <td align='center'>
+        <td align="center">
           <form action="alliance.php">
             <input type="submit" value="Поиск по названию альянса">
           </form>
