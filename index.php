@@ -16,7 +16,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
-    <link rel="apple-touch-startup-image" href="/images/icon/img/startup.png" />
+    <!-- <link rel="apple-touch-startup-image" href="startup.png" /> -->
 
     <!-- <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48 64x64" /> -->
     <!-- <link rel="shortcut icon" href="favicon.ico" sizes="16x16 32x32 48x48 64x64" /> -->
