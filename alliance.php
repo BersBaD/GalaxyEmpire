@@ -11,8 +11,6 @@
     <meta name="description" content="Galaxy Empire - база данных сервера (ALL35)" />
     <meta name="keywords" content="IOS Game, Galaxy Empire, DB" />
     <meta name="author" content="BersBaD" />
-    <!-- robots -->
-    <meta name="robots" content="noindex, nofollow">
     <!-- Apple -->
     <meta name="viewport" content="user-scalable=no, width=device-width" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
