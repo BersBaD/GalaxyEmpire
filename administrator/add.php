@@ -11,8 +11,6 @@
     <meta name="description" content="Galaxy Empire - база данных сервера (ALL35)" />
     <meta name="keywords" content="IOS Game, Galaxy Empire, DB" />
     <meta name="author" content="BersBaD" />
-    <!-- robots -->
-    <meta name="robots" content="noindex, nofollow">
     <!-- Apple -->
     <meta name="viewport" content="user-scalable=no, width=device-width" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -43,13 +41,13 @@
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" >
       <table class='mystyle' bgcolor='#ffcc00' align='center'>
         <tr>
-          <th>Поиск по названию альянса</th>
+          <th>Добавить запись</th>
         </tr>
         <tr>
-          <th>Альянс</th>
+          <th>Игрок</th>
         </tr>
         <tr>
-          <td align='center'><input type="text" name="falliance" /></td>
+          <td align='center'><input type="text" name="fplayer" /></td>
         </tr>
         <tr>
           <td align='center'><input type="submit" name="submit" value="Поиск" /></td>
@@ -65,7 +63,7 @@
 
 <?php
   if (isset($_POST['submit'])) {
-    $falliance = $_POST['falliance'];
+    $fplayer = $_POST['fplayer'];
 
     $webhost = getenv("SERVER_NAME");
     $webroot = getenv("DOCUMENT_ROOT");
@@ -91,7 +89,7 @@
         planet
       INNER JOIN coordinates ON planet.ID = coordinates.ID
       WHERE
-        planet.alliance = '$falliance'
+        planet.player = '$fplayer'
       LIMIT 25");
 
     while ($row = $results->fetchArray()) {
