@@ -132,7 +132,7 @@
             $pngfile = '/images/'.$row['Галактика'].'/'.$row['Система'].'/'.$row['Планета'].'.PNG';
 
             if (file_exists($webroot.$pngfile)) {
-                echo "<img src='$webhost.$pngfile' alt='Что то там' width='100%'>";
+                echo "<img src='$pngfile' alt='Что то там' width='100%'>";
             } else {
                 echo "Нет картинки :(";
             }
