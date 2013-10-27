@@ -128,7 +128,7 @@
         <tr>
           <td align='center' colspan='2'>
           <?php
-            $pngfile = $webroot.'/images/'.$row['Галактика'].'/'.$row['Система'].'/'.$row['Планета'].'.PNG';
+            $pngfile = '/images/'.$row['Галактика'].'/'.$row['Система'].'/'.$row['Планета'].'.PNG';
 
             if (file_exists($pngfile)) {
                 echo "<img src='$pngfile' alt='Что то там' width='100%'>";
