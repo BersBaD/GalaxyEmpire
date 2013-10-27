@@ -23,7 +23,7 @@
 
     <!-- <link rel=”stylesheet” media=”all and (orientation:portrait)” href=”portrait.css”> -->
     <!-- <link rel=”stylesheet” media=”all and (orientation:landscape)” href=”landscape.css”>  -->
-    <link rel="stylesheet" type="text/css" href="css/table.css" />
+    <link rel="stylesheet" type="text/css" href="/css/table.css" />
 
     <title>Galaxy Empire - база данных сервера (ALL35)</title>
   </head>
@@ -129,9 +129,9 @@
         <tr>
           <td align='center' colspan='2'>
           <?php
-            $pngfile = './images/'.$row['Галактика'].'/'.$row['Система'].'/'.$row['Планета'].'.PNG';
+            $pngfile = '/images/'.$row['Галактика'].'/'.$row['Система'].'/'.$row['Планета'].'.PNG';
 
-            if (file_exists($pngfile)) {
+            if (file_exists($webroot.$pngfile)) {
                 echo "<img src='$webhost.$pngfile' alt='Что то там' width='100%'>";
             } else {
                 echo "Нет картинки :(";
