@@ -72,7 +72,9 @@
               AND coordinates.planet = '$fplanet'";
     }
 
-    $db = new SQLite3('Galaxy_Empire_DB.sqlite') or
+    $root = getenv("DOCUMENT_ROOT");
+    $dbfile = $root."db/Galaxy_Empire_DB.sqlite";
+    $db = new SQLite3($dbfile) or
     die("failed to open/create the database");
 
     $results = $db->query("
