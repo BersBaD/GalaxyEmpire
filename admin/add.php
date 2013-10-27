@@ -56,7 +56,7 @@
   if (isset($_POST['submit'])) {
     $fplayer = $_POST['fplayer'];
 
-    $db = new SQLite3('Galaxy_Empire_DB.sqlite') or
+    $db = new SQLite3('./Galaxy_Empire_DB.sqlite') or
     die("failed to open/create the database");
 
     $results = $db->query("
