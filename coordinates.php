@@ -72,8 +72,9 @@
               AND coordinates.planet = '$fplanet'";
     }
 
-    $root = getenv("DOCUMENT_ROOT");
-    $dbfile = $root."db/Galaxy_Empire_DB.sqlite";
+    $webroot = getenv("DOCUMENT_ROOT");
+    $dbfile = $webroot."db/Galaxy_Empire_DB.sqlite";
+
     $db = new SQLite3($dbfile) or
     die("failed to open/create the database");
 
@@ -143,10 +144,10 @@
         <tr>
           <td align='center' colspan='2'>
           <?php
-            $file = './images/'.$row['Галактика'].'/'.$row['Система'].'/'.$row['Планета'].'.PNG'; // 'images/'.$file (physical path)
+            $pngfile = $webroot.'/images/'.$row['Галактика'].'/'.$row['Система'].'/'.$row['Планета'].'.PNG';
 
-            if (file_exists($file)) {
-                echo "<img src='$file' alt='Что то там' width='100%'>";
+            if (file_exists($pngfile)) {
+                echo "<img src='$pngfile' alt='Что то там' width='100%'>";
             } else {
                 echo "Нет картинки :(";
             }
