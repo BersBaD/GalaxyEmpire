@@ -56,7 +56,7 @@
   if (isset($_POST['submit'])) {
     $fplayer = $_POST['fplayer'];
 
-    $webhost = getenv("HTTP_HOST");
+    $webhost = getenv("SERVER_NAME");
     $webroot = getenv("DOCUMENT_ROOT");
     $dbfile = $webroot."db/Galaxy_Empire_DB.sqlite";
 
