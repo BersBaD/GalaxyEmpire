@@ -35,6 +35,12 @@
     <table class='mystyle' bgcolor='#ffcc00' align='center'>
       <tr>
         <th>Админка</th>
+        <th>
+          <?php
+            $root = getenv("DOCUMENT_ROOT");
+            echo $root;
+          ?>
+        </th>
       </tr>
       <tr>
         <td align='center'>
