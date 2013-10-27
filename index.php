@@ -18,12 +18,12 @@
 
     <link rel="apple-touch-startup-image" href="/images/icon/img/startup.png" />
 
-    <link rel="icon" href="/images/icon/favicon.ico" sizes="16x16 32x32 48x48 64x64" />
+    <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48 64x64" />
 
-    <link rel="apple-touch-icon" href="/images/icon/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon" href="/images/icon/apple-touch-icon-76x76.png" sizes="76x76" />
-    <link rel="apple-touch-icon" href="/images/icon/apple-touch-icon-120x120.png" sizes="120x120" />
-    <link rel="apple-touch-icon" href="/images/icon/apple-touch-icon-152x152.png" sizes="152x152" />
+    <link rel="apple-touch-icon" href="apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon-76x76.png" sizes="76x76" />
+    <link rel="apple-touch-icon" href="apple-touch-icon-120x120.png" sizes="120x120" />
+    <link rel="apple-touch-icon" href="apple-touch-icon-152x152.png" sizes="152x152" />
 
     <!-- <link rel=”stylesheet” media=”all and (orientation:portrait)” href=”portrait.css”> -->
     <!-- <link rel=”stylesheet” media=”all and (orientation:landscape)” href=”landscape.css”>  -->
