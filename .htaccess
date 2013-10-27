@@ -9,3 +9,9 @@
     Deny from all
     Satisfy all
 </Files>
+
+<FilesMatch "Galaxy_Empire_DB.sqlite">
+    Order allow,deny
+    Deny from all
+    Satisfy all
+</Files>
