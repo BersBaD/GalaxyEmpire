@@ -56,6 +56,7 @@
   if (isset($_POST['submit'])) {
     $fplayer = $_POST['fplayer'];
 
+    $webhost = getenv("HTTP_HOST");
     $webroot = getenv("DOCUMENT_ROOT");
     $dbfile = $webroot."db/Galaxy_Empire_DB.sqlite";
 
@@ -128,7 +129,7 @@
         <tr>
           <td align='center' colspan='2'>
           <?php
-            $pngfile = './images/'.$row['Галактика'].'/'.$row['Система'].'/'.$row['Планета'].'.PNG';
+            $pngfile = $webhost.'/images/'.$row['Галактика'].'/'.$row['Система'].'/'.$row['Планета'].'.PNG';
 
             if (file_exists($pngfile)) {
                 echo "<img src='$pngfile' alt='Что то там' width='100%'>";
