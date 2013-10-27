@@ -56,7 +56,7 @@
   if (isset($_POST['submit'])) {
     $fplayer = $_POST['fplayer'];
 
-    $db = new SQLite3('./Galaxy_Empire_DB.sqlite') or
+    $db = new SQLite3('/Galaxy_Empire_DB.sqlite') or
     die("failed to open/create the database");
 
     $results = $db->query("
@@ -125,7 +125,7 @@
         <tr>
           <td align='center' colspan='2'>
           <?php
-            $file = './images/'.$row['Галактика'].'/'.$row['Система'].'/'.$row['Планета'].'.PNG'; // 'images/'.$file (physical path)
+            $file = '/images/'.$row['Галактика'].'/'.$row['Система'].'/'.$row['Планета'].'.PNG'; // 'images/'.$file (physical path)
 
             if (file_exists($file)) {
                 echo "<img src='$file' alt='Что то там' width='100%'>";
